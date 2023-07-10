@@ -137,11 +137,16 @@ body {
 }
 
 .btn.filter:hover,
-.btn.filter:focus,
-.btn.filter.primary {
+.btn.filter:focus {
     background-color: var(--oceancolor);
     color: var(--whitecolor);
 }
+
+.btn.filter.primary:hover,
+.btn.filter.primary:focus {
+    background-color: hotpink;
+}
+
 
 .babelist.parentlist {
     font-weight: 800;
@@ -206,33 +211,6 @@ body {
     letter-spacing: 0.06em;
 }
 .pictures .babelist2 {
-    color: var(--navcolor);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-.pictures {
-    text-decoration: none;
-}
-.pictures .parentlists2 {
-    color: var(--navcolor);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-.pictures .babelist2 {
-    color: var(--navcolor);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-.pictures {
-    text-decoration: none;
-}
-.pictures .parentlists2 {
     color: var(--navcolor);
     font-weight: 700;
     font-size: 18px;
