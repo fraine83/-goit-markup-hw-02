@@ -96,6 +96,21 @@ body {
 .btn.primary:focus {
     background-color: hotpink;
 }
+.btn.filter {
+    background-color: var(--whitecolor);
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    padding: 10px;
+}
+
+.btn.filter:hover,
+.btn.filter:focus,
+.btn.filter.primary {
+    background-color: var(--oceancolor);
+    color: var(--whitecolor);
+}
 
 .babelist.parentlist {
     font-weight: 800;
