@@ -62,8 +62,39 @@ body {
 .bg-section-1 {
     background: var(--navyblue);
     text-align: center;
-    width: 1440px;
+    width: 1441px;
     height: 600px;
+    line-height: 60px;
+    left: 0px;
+    top: 72px;
+}
+.h1-title {
+    color: var(--whitecolor);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.btn.filter:hover,
+.btn.filter:focus,
+.btn.filter.primary {
+    background-color: var(--oceancolor);
+    color: var(--whitecolor);
+}
+   .btn.filter {
+    background-color: var(--whitecolor);
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+}
+.btn.filter:hover,
+.btn.filter:focus,
+.btn.filter.primary {
+    background-color: var(--oceancolor);
+    color: var(--whitecolor);
     line-height: 60px;
     left: 0px;
     top: 72px;
