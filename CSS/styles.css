@@ -152,13 +152,6 @@ body {
 .title {
     background-color: rgb(231, 232, 252);
 }
-.name {
-    background-color: rgb(231, 232, 252);
-}
-.type {
-    background-color: rgb(231, 232, 252);
-}
-
 .description.title {
     font-weight: 800;
     font-size: 14px;
@@ -219,4 +212,11 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+}
+.name {
+    background-color: rgb(231, 232, 252);
+}
+
+.type {
+    background-color: rgb(231, 232, 252);
 }
