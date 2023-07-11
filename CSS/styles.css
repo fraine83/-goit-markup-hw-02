@@ -14,7 +14,7 @@ body {
     letter-spacing: 0.01em;
 }
 
-.link-logo {
+.logo-link {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -22,15 +22,15 @@ body {
     font-weight: 800;
 }
 
-.web-logo {
+.logo {
     color: var(--iriscolor);
 }
 
-.studio-logo {
+.studio {
     color: var(--navyblue);
 }
 
-.nav .pages {
+.nav-menu .page {
     color: var(--navcolor);
     text-decoration: none;
     font-weight: 500;
@@ -39,19 +39,19 @@ body {
     letter-spacing: 0.05em;
 }
 
-.lists {
+.list {
     list-style-type: none;
 }
 
-.nav .pages:hover,
-.nav .pages:focus,
-.nav .pages.currentoption,
-.contacts-info .info:hover,
-.contacts-info .info:focus {
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .info:hover,
+.contacts-menu .info:focus {
     color: var(--oceancolor);
 }
 
-.contacts-info .info {
+.contacts-menu .item {
     color: var(--navcolor);
     font-weight: 500;
     font-size: 15px;
@@ -59,7 +59,7 @@ body {
     letter-spacing: 0.05em;
     text-decoration: none;
 }  
-.bg-section-1 {
+.bg-hero {
     background: var(--navyblue);
     text-align: center;
     width: 1441px;
@@ -68,7 +68,7 @@ body {
     left: 0px;
     top: 72px;
 }
-.h1-title {
+.hero-title {
     color: var(--whitecolor);
     font-size: 56px;
     font-weight: 700;
@@ -76,13 +76,13 @@ body {
     text-align: center;
     letter-spacing: 0.05em;
 }
-.btn.filter:hover,
-.btn.filter:focus,
-.btn.filter.primary {
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.primary {
     background-color: var(--oceancolor);
     color: var(--whitecolor);
 }
-   .btn.filter {
+.button.filter {
     background-color: var(--whitecolor);
     color: var(--navyblue);
     font-weight: 500;
@@ -90,30 +90,23 @@ body {
     line-height: 1.5;
     padding: 10px;
 }
-.btn.filter:hover,
-.btn.filter:focus,
-.btn.filter.primary {
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.primary {
     background-color: var(--oceancolor);
     color: var(--whitecolor);
     line-height: 60px;
     left: 0px;
     top: 72px;
 }
-.h1-title {
-    color: var(--whitecolor);
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.05em;
-}
-.btn {
+
+.button {
     cursor: pointer;
     border-color: transparent;
     letter-spacing: 0.05em;
     font-family: inherit;
 }
-.btn.primary {
+.button.primary {
     background-color: var(--oceancolor);
     color: var(--whitecolor);
     font-size: 16px;
@@ -122,12 +115,20 @@ body {
     text-align: center;
     letter-spacing: 0.05;
 }
-
-.btn.primary:hover,
-.btn.primary:focus {
+.button .primary {
+    cursor: pointer;
+    border-color: transparent;
+    letter-spacing: 0.05em;
+}
+.button.primary:hover,
+.button.primary:focus {
     background-color: hotpink;
 }
-.btn.filter {
+
+.button.filter.current {
+    background-color: var(--oceancolor);
+}
+.button.filter {
     background-color: var(--whitecolor);
     color: var(--navyblue);
     font-weight: 500;
@@ -136,25 +137,24 @@ body {
     padding: 10px;
 }
 
-.btn.filter:hover,
-.btn.filter:focus {
+.button.filter:hover,
+.button.filter:focus {
     background-color: var(--oceancolor);
     color: var(--whitecolor);
 }
 
-.btn.filter.primary:hover,
-.btn.filter.primary:focus {
+.button.filter.current:hover,
+.button.filter.current:focus {
     background-color: hotpink;
 }
 
-
-.babelist.parentlist {
+.description.title {
     font-weight: 800;
     font-size: 14px;
     line-height: 1.5;
     color: var(--slatecolor);
 }
-.gradetitle {
+.section-title {
     text-align: center;
     color: var(--navyblue);
     font-size: 36x;
@@ -162,15 +162,7 @@ body {
     line-height: 1.5px;
     letter-spacing: 0.05em;
 }
-.teammates {
-    text-align: center;
-    color: var(--navyblue);
-    font-size: 36x;
-    font-weight: 700;
-    line-height: 1.5px;
-    letter-spacing: 0.05em;
-}    
-.teamnames {
+.name {
     font-weight: 800;
     font-size: 20px;
     line-height: 1.5;
@@ -178,20 +170,20 @@ body {
     color: var(--navyblue);
 }
 
-.title {
+.position {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.05em;
     color: var(--slatecolor);
 }
-.botbg {
+.bg-footer {
     background-color: var(--navyblue);
 }
-.studio-logo1 {
+.studio-footer {
     color: white;
 }
-.footress {
+.footer-description {
     color: white;
     width: 265px;
     font-size: 14px;
@@ -200,17 +192,17 @@ body {
     left: 156px;
     font-weight: 400;
 }
-.pictures {
+.project {
     text-decoration: none;
 }
-.pictures .parentlists2 {
+.project .name {
     color: var(--navcolor);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.pictures .babelist2 {
+.project .type {
     color: var(--navcolor);
     font-weight: 700;
     font-size: 18px;
