@@ -7,6 +7,7 @@
     --oceancolor: #2196F3;
     --whitecolor: white;
     --slatecolor: #434455;
+    --whitesmoke: whitesmoke;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -61,7 +62,6 @@ body {
 }  
 .bg-hero {
     background: var(--navyblue);
-    text-align: center;
     width: 1441px;
     height: 600px;
     line-height: 60px;
@@ -73,7 +73,6 @@ body {
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
-    text-align: center;
     letter-spacing: 0.05em;
 }
 .button.filter:hover,
@@ -146,6 +145,12 @@ body {
 .button.filter.current:hover,
 .button.filter.current:focus {
     background-color: hotpink;
+}
+.description {
+    background-color: whitesmoke;
+}
+.title {
+    background-color: whitesmoke;
 }
 
 .description.title {
