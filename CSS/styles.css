@@ -7,7 +7,7 @@
     --oceancolor: #2196F3;
     --whitecolor: white;
     --slatecolor: #434455;
-    --whitesmoke: whitesmoke;
+    --ashwhite: rgb(242, 237, 237);
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -147,10 +147,10 @@ body {
     background-color: hotpink;
 }
 .description {
-    background-color: whitesmoke;
+    background-color: rgb(242, 237, 237);
 }
 .title {
-    background-color: whitesmoke;
+    background-color: rgb(242, 237, 237);
 }
 
 .description.title {
