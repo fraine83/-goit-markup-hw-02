@@ -4,7 +4,7 @@
     --iriscolor: #4d5ae5;
     --navyblue: #2E2F42;
     --navcolor: black;
-    --oceancolor: #2196F3;
+    --oceancolor: #404bbf;
     --whitecolor: white;
     --slatecolor: #434455;
     --ashwhite: rgb(242, 237, 237);
@@ -96,6 +96,7 @@ bg-team {
     font-size: 16px;
     line-height: 1.5;
     font-family: inherit;
+    border-radius: 4px;
 }
 .button.primary {
     background-color:var(--iriscolor);
