@@ -49,8 +49,8 @@ body {
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacts-menu .info:hover,
-.contacts-menu .info:focus {
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
     color: var(--iriscolor);
 }
 
@@ -62,7 +62,7 @@ body {
     text-decoration: none;
 }  
 .bg-hero {
-    background: var(--navyblue);
+    background-color: var(--navyblue);
 }
 .hero-title {
     color: var(--whitecolor);
@@ -71,9 +71,6 @@ body {
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.04em;
-}
-bg-team {
-    background-color: var(--cloud);
 }
 .button.filter {
     background-color: var(--cloud);
@@ -137,12 +134,14 @@ bg-team {
     font-size: 20px;
     letter-spacing: 0.02em;
     color: var(--navyblue);
+    text-align: center;
 }
 
 .team .position {
     font-weight: 400;
     font-size: 16px;
     color: var(--slatecolor);
+    text-align: center;
 }
 .page-footer.bg-footer {
     background-color: var(--navyblue);
